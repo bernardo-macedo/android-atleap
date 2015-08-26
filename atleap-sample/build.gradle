@@ -27,8 +27,6 @@ android {
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 21
-        versionCode new Date().time.toString()[0..9].toInteger()
-        versionName "0.1." + new Date().format('yyyyMMddHHmmss')
     }
 
     buildTypes {
